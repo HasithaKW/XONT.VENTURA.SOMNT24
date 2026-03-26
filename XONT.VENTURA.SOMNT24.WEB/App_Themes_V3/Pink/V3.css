@@ -1,0 +1,1469 @@
+﻿/* CSS Document */
+
+.BodyApp
+{
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+background-color:#999999;
+
+}
+
+.BodyCompo
+{
+margin-left: 0px;
+margin-left: 0px;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+.dividerbottmbartop
+{
+width:3px;
+height:27; 
+background-color: transparent;
+background: url("images/dividertop.png") no-repeat;
+}
+
+.topdivider
+{
+width:3px;
+height:29px; 
+background: url("images/topdivider.png") no-repeat;
+}
+
+.dividerbottmbar
+{
+width:3px;
+height:27px; 
+background-color: transparent;
+background: url("images/buttns_20.png") no-repeat;
+}
+
+.navloop {
+background-image: url("images/navloop.png");
+background-repeat:repeat-y; 
+}
+
+.navbuttonbar {
+background-image: url("images/buttonbar.png"); 
+background-repeat:no-repeat;
+}
+
+
+.navefect {
+background-image: url("images/index_27.jpg"); 
+background-repeat:no-repeat;
+vertical-align:bottom;
+background-position:bottom;
+}
+
+.roledivider 
+{
+background-image: url("images/divider.png");
+background-repeat:no-repeat;
+}
+
+
+.Textboxstyle1
+
+{
+border-width: 1px;
+border-style:solid;
+border-color: #7f9db9;
+}
+
+.sortasc-header
+{
+background:url("images/desc.png");
+padding-left:20px;
+padding-right:20px; 
+vertical-align:middle;
+right:auto; 
+background-repeat:no-repeat; 
+background-color:#006699;
+}
+
+.sortdesc-header 
+{ 
+background:url("images/asc.png");
+padding-left:20px;
+padding-right:20px; 
+vertical-align:middle; 
+right:auto; 
+background-repeat:no-repeat; 
+background-color:#006699;
+}
+
+.GridPadding
+{
+background-image: url("images/sort_none.png");
+background-repeat:no-repeat; 
+padding-left:26px;
+padding-right:8px;
+}
+
+.SelectGridPadding
+{
+
+padding-left:8px;
+padding-right:8px;
+}
+
+.Gridtablestyle
+{
+background-color:#FFF;
+font-family: Trebuchet MS;
+font-size: 13px;
+padding:2px; color: #000000;
+
+}
+
+
+.PromptGridtablestyle
+{
+background-color:#FFF;
+font-family: Trebuchet MS;
+font-size: 13px;
+color: #01539D; margin:2px;
+padding:2px;
+min-width:250px;
+
+}
+
+.PromptBasestyle
+{
+background-color:#ffffff; border-style:double;
+border-color:#006699;
+padding:2px;
+}
+
+.Captionstyle{
+font-size: 13px;
+font-family:Trebuchet MS;
+font-weight: bold; color: #000000;
+
+}
+
+.Linktext{
+font-family:Trebuchet MS;
+font-size:11px;
+cursor:pointer;
+
+}
+
+.Linkboldtext{
+font-family:verdana;
+color: #01539D;
+font-weight: bold;
+font-size:11px;
+cursor:pointer;
+
+}
+
+.loading {
+background-image: url("images/loader.gif");
+height: 32px;
+width: 32px;
+background-repeat:no-repeat;
+}
+
+.GridCaptionstyle{
+font-size: 13px;
+font-family: Trebuchet MS;
+font-weight: bold; color: #01539D;
+}
+
+
+.HeaderTitle{
+font-size: 15px;
+font-family: Trebuchet MS;
+font-weight: bold; color: #01539D;
+}
+
+.PromptCaptionstyle{
+font-size: 13px;
+font-family: Trebuchet MS;
+font-weight: bold;
+color: #636363; height: 24px;
+margin-left:4px;
+}
+
+.moveright {
+background-image: url("images/moveright.jpg"); 
+cursor:pointer;
+margin-bottom:2px;
+}
+
+.moveleft {
+background-image: url("images/moveleft.jpg");
+cursor:pointer;
+margin-top:2px; 
+}
+
+.moveright2 {
+background-image: url("images/moveright2.jpg"); 
+cursor:pointer;
+margin-top:2px;
+}
+
+.moveleft2 {
+background-image: url("images/moveleft2.jpg"); 
+cursor:pointer;
+margin-bottom:2px;
+}
+
+.calendermoveleft {
+background-image: url("images/ar_left.png");
+background-color:Transparent;
+background-repeat:no-repeat;
+cursor:pointer; 
+}
+
+.calendermoveright {
+background-image: url("images/ar_right.png"); 
+background-color:Transparent;
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+.formtablestyle
+{
+font-family: Trebuchet MS;
+font-size: 11px;
+color: #01539D; background-color:Transparent;
+
+}
+
+.Appbodyloop
+{
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+background-image: url("images/bodyloop.jpg");
+background-repeat: repeat-x; background-color: #ffffff;
+}
+
+.AppMenubuttonstyle
+{
+background:transparent;
+font-size: 13px; 
+font-family: Trebuchet MS;
+font-weight: bold;  color: #ffffff; 
+padding:0px;
+width:233px;
+height:24px;
+border:0px;
+margin:0px;
+cursor:pointer;
+text-align:left;
+}
+
+.AppMenubuttonstyleHover 
+{
+background:transparent;
+padding	:0px;
+width:233px;
+height:24px;
+border:0px;
+margin:0px;
+cursor:pointer;
+text-align:left;
+font-size: 13px; 
+font-family: Trebuchet MS;
+font-weight: bold; color: #cccccc;
+
+}
+
+.AppMenubuttonstyleClick
+{
+background:transparent;
+font-size: 13px; 
+font-family: Trebuchet MS; 
+font-weight: bold; color: #ffcc33;
+padding:0px;
+width:233px;
+height:24px;
+border:0px;
+margin:0px;
+cursor:pointer;
+text-align:left;
+
+}
+
+.AppCMenutask
+
+{
+
+background:transparent;
+font-size: 13px; 
+font-family: Trebuchet MS; color: #ffffff; 
+border: 0px;
+padding:0px;
+height:20px;
+width:251px;
+cursor:pointer;
+text-align:left;
+}
+
+.AppCMenutaskHover
+
+{
+
+border: 0px;
+padding:0px;
+height:20px;
+width:251px;
+cursor:pointer;
+font-size: 13px; 
+font-family: Trebuchet MS; 
+text-align:left; color: #cccccc;
+}
+
+.AppCMenutaskClick
+{
+
+font-size: 13px; 
+font-family: Trebuchet MS; 
+border: 0px; color: #cccccc;
+padding:0px;
+height:20px;
+width:251px;
+cursor:pointer;
+text-align:left;
+
+
+}
+.MainButtonStyle
+{
+
+border-spacing:0px;
+margin:0px;
+padding:0px;
+border-color:#01539D;
+border-width:1px;
+width:110px;
+height:24px;
+background-color:Transparent;
+font-family:Trebuchet MS;
+font-weight: bold; color: #ffffff;
+font-size: 13px;
+background-image: url("images/butntry.jpg");
+background-repeat:repeat-x; 
+cursor:pointer;
+
+}
+
+.MainButtonStyle:hover 
+{
+background-image: url("images/butntry1.jpg"); 
+background-repeat:repeat-x; 
+cursor:pointer;
+}
+
+.PromptButtonStyle
+{
+border-spacing:0px;
+margin:0px;
+padding:0px;
+border-color:#01539D;
+border-width:1px;
+width:90px;
+height:24px;
+background-color:Transparent;
+font-family:Trebuchet MS;
+font-weight: bold; color: #ffffff;
+font-size: 13px;
+background-image: url("images/butntry.jpg");
+background-repeat:repeat-x; 
+cursor:pointer;
+}
+
+.PromptButtonStyle:hover 
+{
+background-image: url("images/butntry1.jpg");
+color: #ffffff;
+}
+
+.Reporttablestyle
+{
+background-color:Transparent;
+font-family: Trebuchet MS;
+color: #01539D;
+font-size: 12px;
+background-image: url("images/reportbody.jpg");
+background-repeat:repeat-x; 
+}
+
+.FindButtonclasifi
+{
+background-color:Transparent;
+background:url("images/find.png");
+cursor:pointer;
+margin-right:2px;
+margin-left:2px;
+}
+
+.Reporttablestyle
+{
+background-color:Transparent; 
+font-family:Trebuchet MS;
+font-size: 13px; color: #01539D;
+background-image: url("images/reportbody.jpg");
+background-repeat:repeat-x; 
+}
+
+.slice_0_png
+{
+width:10px; 
+height:29px;
+background: url("images/index_01.png") no-repeat;
+}
+
+.slice_1_png
+{
+width:10px; 
+height:29px;
+background: url("images/index_01.png") no-repeat;
+}
+
+.slice_2_png
+{
+background: url("images/index_02.png") repeat-x;
+}
+
+.slice_3_png
+{
+height:29px;
+background: url("images/index_03.png") no-repeat;
+}
+
+.slice_4_png
+{
+width:22px; 
+height:29px;
+background: url("images/slized_04.png") no-repeat;
+}
+.slice_5_png
+{
+
+width:11px; 
+height:10px;
+background: url("images/index_05.png") no-repeat;
+}
+
+.slice_6_png
+{
+width:21px;
+height:69px;
+background: url("images/index_06.png") no-repeat;
+}
+
+.slice_7_png
+{
+width:21px;
+height:69px;
+background: url("images/index_07.png") no-repeat;
+}
+.slice_8_png
+{
+height:69px; 
+background: url("images/index_08.png") repeat-x;
+}
+.slice_9_png
+{
+width:11px; 
+height:15px;
+background: url("images/index_09.png") no-repeat;
+}
+.slice_10_png
+{
+
+width:18px; 
+height:64px;
+background: url("images/index_10.png") no-repeat;
+}
+.slice_11_png
+{
+
+width:11px; 
+height:9px;
+background: url("images/index_11.png") no-repeat;
+}
+.slice_12_png
+{
+
+width:11px; 
+height:8px;
+background: url("images/index_12.png") no-repeat;
+}
+.slice_13_png
+{
+
+width:28px; 
+height:9px;
+background: url("images/index_13.png") no-repeat;
+}
+.slice_14_png
+{
+
+height:8px;
+background: url("images/index_14.png") repeat-x;
+}
+.slice_15_png
+{
+
+width:11px; 
+height:8px;
+background: url("images/index_15.png") no-repeat;
+}
+.slice_16_png
+{
+
+width:11px; 
+height:15px;
+background: url("images/index_16.png") no-repeat;
+}
+.slice_17_png
+{
+
+width:223px; 
+height:26px;
+background: url("images/index_17.png") repeat-x;
+}
+.slice_18_png
+{
+
+width:917px; 
+height:65px;
+background: url("images/index_18.png") no-repeat;
+}
+.slice_19_png
+{
+width:30px; 
+height:26px;
+background: url("images/index_19.png") no-repeat;
+}
+.slice_20_png
+{
+height:26px;
+background: url("images/index_20.png") repeat-x;
+}
+
+.slice_21_png
+{
+width:23px; 
+height:65px;
+background: url("images/index_21.png") no-repeat;
+}
+.slice_22_png
+{
+
+width:11px; 
+background: url("images/index_22.png") repeat-y;
+}
+.slice_23_png
+{
+
+height:200;
+background: url("images/index_23.png") repeat-x;
+}
+.slice_24_png
+{
+
+width:21px; 
+height:28px;
+background: url("images/index_24.png") no-repeat;
+}
+.slice_25_png
+{
+width:251px; 
+height:20px;
+background: url("images/index_25.png") no-repeat;
+}
+.slice_26_png
+{
+
+width:30px; 
+height:26px;
+background: url("images/index_26.png") no-repeat;
+}
+.slice_27_png
+{
+width:251px;
+vertical-align:bottom;
+background: url("images/index_27.png") repeat-y;
+}
+.slice_28_png
+{
+width:11px; 
+background: url("images/index_28.png") repeat-y;
+}
+
+.slice_29_png
+{
+width:251px; 
+height:20px;
+background: url("images/index_29.png") no-repeat;
+}
+
+.slice_30_png
+{
+
+width:11px; 
+height:8px;
+background: url("images/index_30.png") no-repeat;
+}
+.slice_31_png
+{
+
+height:8px;
+background: url("images/index_31.png") repeat-x;
+}
+.slice_32_png
+{
+
+width:23px; 
+height:28px;
+background: url("images/index_32.png") no-repeat;
+}
+.slice_33_png
+{
+
+width:11px; 
+height:8px;
+background: url("images/index_33.png") no-repeat;
+}
+
+.slice_34_png
+{
+
+width:701px; 
+height:28px;
+background: url("images/index_34.png") no-repeat;
+}
+
+.slice_35_png
+{
+
+width:5px; 
+height:32px;
+background: url("images/index_35.png") no-repeat;
+}
+
+.slice_36_png
+{
+height:32px;
+background: url("images/index_36.png") repeat-x;
+}
+
+.slice_38_png
+{
+width:7px; 
+height:32px;
+background: url("images/index_38.png") no-repeat;
+}
+
+.slice_39_png
+{
+
+width:3px; 
+height:25px;
+background-color: transparent;
+background: url("images/buttns_16.png") no-repeat;
+}
+
+.slice_40_png
+{
+
+left:auto;
+background: url("images/buttns_50.png") no-repeat;
+}
+
+.ExcelXport
+{
+width:31px; 
+height:37px;
+border-style:none;
+padding:none;
+cursor:pointer;
+background: url("images/buttns_44xl.png") no-repeat;
+}
+
+.WordXport
+{
+width:31px; 
+height:37px;
+border-style:none;
+padding:none;
+cursor:pointer;
+background: url("images/buttns_41.png") no-repeat;
+}
+
+.printbutton
+{
+width:29px; 
+height:27px;
+border-style:none;
+padding:none;
+cursor:pointer;
+background: url("images/buttns_17.png") no-repeat;
+}
+
+					.Hidden
+		{
+		border-style:none;
+		padding:none;
+		background:transparent;
+		visibility:hidden;
+		display:none;
+		}
+		
+		
+
+.name
+{
+width:115px; 
+height:28px;
+background: url("images/name.png") no-repeat;
+}
+.soliddividr
+{
+width:3px; 
+height:25px;
+background: url("images/buttns_22.png") no-repeat;
+}
+.soliddividr2
+{
+width:3px; 
+height:30px;
+background: url("images/buttns_30.png") no-repeat;
+}
+.adminicon
+{
+width:20px; 
+height:28px;
+background: url("images/buttns_03.png") no-repeat;
+}
+
+.Maintextstyle{
+font-family:Verdana;
+font-size:11px;	color: #ffffff; 
+
+} 
+
+.Textboxstyle
+
+{
+border-width: 1px;
+background-color:#FFF;
+border-color: #7f9db9;
+border-style: solid; color: #01539D;
+font-family: Trebuchet MS;
+font-size: 13px;
+}
+
+.Labelstyle
+
+{
+border-width: 1px;
+background-color:#fdf2ae;
+border-color: #898989; color: #383838;
+border-style: solid;
+font-family: Trebuchet MS;
+font-size: 12px;
+padding-bottom:2px;
+padding-left:6px;
+padding-right:6px;
+vertical-align:middle;
+text-align:center;
+}
+
+.Dropdownboxstyle 
+{
+border-width: 1px;
+border-color: #7f9db9;
+border-style: solid; color: #01539D;
+font-family: Trebuchet MS;
+height:22px;
+font-size: 13px;
+}
+
+.Errormessagetextstyle {
+color: #e50505;
+font-family: Trebuchet MS;
+font-size: 12px;
+font-style:normal;
+}
+
+.Checkboxstyle {
+color: #01539D;
+font-family: Trebuchet MS;
+font-size: 13px;
+margin-left: -4px;
+padding-left:-4px;
+}
+
+.Commenstyle {
+font-family: Trebuchet MS;
+font-size: 12px;
+}
+
+
+/*Modal Popup*/
+.modalBackground 
+{
+background-color:Gray;
+filter:alpha(opacity=50);
+opacity:0.5;
+}
+
+.modalPopup {
+background-color:#ffffdd;
+border-width:3px;
+border-style:solid;
+border-color:Gray;
+padding:3px;
+width:250px;
+}
+
+
+.popupControl
+{
+background-color: White;
+position: absolute;
+visibility: hidden;
+}
+
+.dragHandle
+{
+height: 5px;
+background-color: #006699;
+cursor: move;
+border: outset thin white;
+}
+
+.DragHandleCaptionstyle
+{
+font-size: 11px;
+font-family: Tahoma;
+font-weight: bold;
+color: White; /*#636363;*/
+height: 24px;
+margin-left: 4px;
+}
+
+#Layer1 {
+position:absolute;
+right:0px;
+top:0px;
+width:22px;
+height:22px;
+z-index:1;
+}
+
+.ValueTextboxstyle
+
+{
+border-width: 1px;
+background-color:#FFF;
+border-color: #7f9db9;
+font-family:Trebuchet MS;
+text-align:right;
+border-style: solid; color: #01539D;
+font-size: 13px;
+}
+
+.search
+{
+background-color:Transparent;
+background:url("images/search.jpg");
+cursor:pointer;
+}
+
+.grid_remove
+
+{
+background-color:Transparent;
+background-image: url("images/remove.jpg");
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+.Dview
+
+{
+width:18px; 
+height:18px;
+background: url("images/360.jpg") no-repeat;
+cursor:pointer;
+}
+
+.reportselect
+{
+width:10px; 
+height:10px;
+background: url("images/select.jpg") no-repeat;
+cursor:pointer;
+}
+
+.RPTMaintextstyle
+{
+
+font-family:Tahoma;
+font-size:11px;
+color: #000000;
+
+}
+
+.RPTMainnumberstyle
+{
+
+font-family:Tahoma;
+font-size:11px;
+color: #000000;
+text-align:right;
+
+}
+
+.RPTBoldtextstyle
+{
+
+font-family:Arial;
+font-size:12px;
+font-weight: bold;
+color: #000000;
+
+}
+
+.RPTBoldtitltext
+{
+
+font-family:Arial;
+font-size:16px;
+font-weight: bold;
+color: #000000;
+text-align:center;
+
+}
+
+.RPTBoldtitlsmall
+{
+
+font-family:Arial;
+font-size:12px;
+font-weight: bold;
+color: #000000;
+text-align:center;
+
+}
+
+.mvedwn
+{
+width:30px; 
+height:30px;
+background: url("images/mvedwn.png") no-repeat;
+cursor:pointer;
+}
+
+.mveup
+{
+width:30px; 
+height:30px;
+background: url("images/mveup.png") no-repeat;
+cursor:pointer;
+}
+
+.calender
+{
+width:20px;
+height:17px; 
+background-color: transparent;
+background: url("images/calender.png") no-repeat;
+}
+
+
+.InactivTxtboxstyle
+{
+border-width: 1px;
+background-color:#f1f1f1;
+border-color: #999999;
+border-style: solid; color: #01539D;
+font-family: Trebuchet MS;
+font-size: 13px;
+}
+
+.NumberInactivTxtbox
+{
+border-width: 1px;
+background-color:#f1f1f1;
+border-color: #999999;
+border-style: solid;
+font-family: Trebuchet MS;
+text-align:right; color: #01539D;
+font-size: 13px;
+}
+
+.paginggridpnl
+{
+height :auto ; 
+}
+
+.scrollgridpnl
+{
+max-height:300px;
+width:102%;
+overflow:auto; 
+}
+
+
+.headeradding
+{
+margin-left:2.7px;
+margin-right:2.7px;
+}
+
+
+
+.listicon
+{
+width:20px;
+height:19px; 
+background-color: transparent;
+background: url("images/list.png") no-repeat;
+}
+
+.save
+{
+width:23px;
+height:22px;
+cursor:pointer; 
+background-color: transparent;
+background: url("images/save.png") no-repeat;
+}
+
+.browse
+{
+width:27px;
+height:20px;
+cursor:pointer; 
+background-color: transparent;
+background: url("images/browse.png") no-repeat;
+}
+
+.DivScroll 
+{
+overflow:auto;
+left: 0px;
+top: 0px;
+min-height:20px;
+height:auto!important;
+height:40px;
+}
+
+.DivScroll2 
+{
+height:250px;
+height:auto!important;
+max-height:320px;
+}
+
+.reportback {
+background-image: url("images/repback.png");
+background-color: transparent;
+background-repeat:no-repeat;
+width:22px;
+height:22px;
+cursor:pointer; 
+border:none;
+cursor:pointer; 
+}
+
+.FindButton
+{
+border-style:none;
+border-width:0px;
+width:20px;
+height:16px;
+background-color:Transparent;
+background:url("images/find.png");
+cursor:pointer;
+}
+
+.findpadding
+{
+margin-left:2.2px;
+margin-right:2.2px;
+}
+
+        .addico
+        {
+            width: 22px;
+            height: 22px;
+            border-style: none;
+            padding: none;
+            cursor: pointer;
+            background: url("images/addico.png") no-repeat;
+        }
+        .removeico
+        {
+            width: 22px;
+            height: 22px;
+            border-style: none;
+            padding: none;
+            cursor: pointer;
+            background: url("images/removeico.png") no-repeat;
+        }
+        .deleteico
+        {
+            width: 22px;
+            height: 22px;
+            border-style: none;
+            padding: none;
+            cursor: pointer;
+            background: url("images/deleteico.png") no-repeat;
+        }
+        .checkico
+        {
+            width: 22px;
+            height: 22px;
+            border-style: none;
+            padding: none;
+            cursor: pointer;
+            background: url("images/checkico.png") no-repeat;
+        }
+
+/**new things*/
+td,
+th {
+  padding-bottom: 2px;
+  
+}
+input[type="text"][readonly] {
+    background-color: rgba(170, 170, 170, 0.19);
+    border: solid 1px #7F9DB9;
+    opacity:0.7;
+}
+input[type="textarea"][readonly] {
+    background-color: rgba(170, 170, 170, 0.19);
+    border: solid 1px #7F9DB9;
+    opacity:0.7;
+}
+.linkButton{cursor: pointer;}
+
+/*V2024*/
+.skipfwrdright {
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid gray;
+    background: linear-gradient(#DDDDDC, #FFFFFF, #DDDDDC);
+	cursor:pointer;
+    color: black;
+}
+.skipfwrdright:after {
+    font-family: FontAwesome;
+    content: '\f050';
+}
+
+.skipfwrdleft {
+    -moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid gray;
+    background: linear-gradient(#DDDDDC, #FFFFFF, #DDDDDC);
+	cursor:pointer;
+    color: black;
+}
+.skipfwrdleft:after
+{
+    font-family: FontAwesome;
+    content: '\f049';
+    
+}
+
+.fwrdright {
+     -moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid gray;
+    background: linear-gradient(#DDDDDC, #FFFFFF, #DDDDDC);
+	cursor:pointer;
+    color: black;
+}
+
+.fwrdright:after
+{
+    font-family: FontAwesome;
+    content: '\f051';
+}
+.fwrdleft{
+      -moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid gray;
+    background: linear-gradient(#DDDDDC, #FFFFFF, #DDDDDC);
+	cursor:pointer;
+    color: black;
+}
+
+.fwrdleft:after
+{
+    font-family: FontAwesome;
+    content: '\f048';
+
+}
+ fieldset{
+          padding-top:6.6px !important;
+          padding-bottom:13px !important;
+          padding-left:11px !important;
+          padding-right:11px !important;
+          border:1px solid #7f9db9 !important;
+              
+      }
+ fieldset legend
+{
+    color:#01539d !important;
+    /*V2024*/
+    display: inherit;
+    width:auto;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding: 0px 2px 0px 2px;
+    /*V2024*/
+}
+/*V2024*/
+
+/*V2027*/
+.zoomImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .zoomImg:hover {
+                opacity: 0.7;
+            }
+
+        /* The Modal (background) */
+        .imageModal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        }
+
+        /* Modal Content (Image) */
+        .imageModalContent {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        /* Caption of Modal Image (Image Text) - Same Width as the Image */
+        #imageCaption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation - Zoom in the Modal */
+        .imageModalContent, #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {
+                -webkit-transform: scale(0);
+            }
+
+            to {
+                -webkit-transform: scale(1);
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+        /* The Close Button */
+        .imageClose {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+            .imageClose:hover,
+            .imageClose:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px) {
+            .imageModalContent {
+                width: 100%;
+            }
+        }
+   
+        .selectedRow {
+            background-color: #669999;
+        }
+
+        .orange{
+            color:orange;
+        }
+        .red{
+            color:red;
+        }
+
+        .taskLoad {
+            width: 50px;
+            height: 50px;
+            margin-left: 45%;
+            margin-top: 20%;
+            background: url("../../images/task_loading.gif");
+            background-size: 50px 50px;
+        }
+/*V2027*/
+
+/*V2030 - list prompt styles start*/
+table.tableStyles th a {
+    color: white !important;
+}
+
+.tableStyles span.glyphicon {
+    font-size: 11px;
+}
+/*V2030 - list prompt styles end*/
+
+.datepicker {
+    /*padding:0px;removed - date controller*/
+    padding:8px;/* date controller*/
+}
+
+/*V2033Adding translator sytels start*/
+#translatorOuterDiv {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #96969669;
+    z-index:20000;
+}
+
+#translatorInnerDiv {
+    position: absolute;
+    top: 28%;
+    left: 34%;
+    background: white;
+    padding: 20px 20px 14px 20px;
+    border-radius: 15px;
+}
+
+div#translatorInnerDiv input {
+    margin-bottom: 8px;
+    width: 380px;
+}
+
+#translatorHeaderCaption {
+    margin-bottom: 10px;
+}
+
+.translatorBtnWrapper #btnCancel {
+    margin-left: 10px;
+    margin-top:7px;
+}
+.translatorBtnWrapper #btnDefault {
+    margin-left: 10px;
+}
+
+#translatorNotPermittedDiv {
+    position: fixed;
+    top: 4%;
+    right: 2%;
+    padding: 13px;
+    background-color:white;
+    border: #7DB9E8 2px solid;
+    border-radius: 20px;
+}
+/*V2033Adding translator sytels end*/
+
+/*V2040Adding Toast Message Validation Start*/
+.ToastValidationMessage-Right {
+    position: relative;
+}
+
+.ToastValidationMessage-Left {
+    position: relative;
+}
+
+.ToastValidationMessage-Right > span {
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    background: white;
+    border: 1px solid;
+    padding: 2px 5px;
+    border-radius: 16px;
+    z-index: 2;
+    left: 20%;
+    top: 0%;
+    color: red;
+}
+
+.ToastValidationMessage-Left > span {
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    background: white;
+    border: 1px solid;
+    padding: 2px 5px;
+    border-radius: 16px;
+    z-index: 2;
+    right: 20%;
+    top: 0%;
+    color: red;
+}
+
+.DataTableStyle tr:last-child .ToastValidationMessage-Right > span {
+    left: 100%;
+    bottom: 0%;
+    top: auto;
+}
+
+.DataTableStyle tr:last-child .ToastValidationMessage-Left > span {
+    right: 100%;
+    bottom: 0%;
+    top: auto;
+}
+/*V2040Adding Toast Message Validation End*/

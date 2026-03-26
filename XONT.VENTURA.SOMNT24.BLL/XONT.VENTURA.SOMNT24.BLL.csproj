@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+<TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>XONT.VENTURA.SOMNT24</RootNamespace>
+    <SccProjectName>%24/SOMNT24_V3/XONT.VENTURA.SOMNT24/XONT.VENTURA.SOMNT24.BLL</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://vstfs:8080/tfs/ventura_v3</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>XONT.VENTURA.SOMNT24.BLL</AssemblyTitle>
+    <Description>Return Type Maintenance</Description>
+    <Company>XONT-SOFTWARE (PVT)</Company>
+    <Product>XONT.VENTURA.SOMNT24.BLL</Product>
+    <Copyright>Copyright ©  2016</Copyright>
+    <AssemblyVersion>3.0.0.2</AssemblyVersion>
+    <FileVersion>3.0.0.2</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.14" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.5" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Text.Json" Version="10.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XONT.VENTURA.SOMNT24.DAL\XONT.VENTURA.SOMNT24.DAL.csproj" />
+    <ProjectReference Include="..\XONT.VENTURA.SOMNT24.DOMAIN\XONT.VENTURA.SOMNT24.DOMAIN.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+</Project>

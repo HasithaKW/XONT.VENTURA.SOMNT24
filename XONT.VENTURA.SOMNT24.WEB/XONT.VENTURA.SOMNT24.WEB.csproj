@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>XONT.VENTURA.SOMNT24</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TypeScriptToolsVersion>3.2</TypeScriptToolsVersion>
+<TargetFramework>net8.0</TargetFramework>
+    <AssemblyTitle>XONT.VENTURA.SOMNT24.WEB</AssemblyTitle>
+    <Description>Return Type Maintenance</Description>
+    <Company>X-ONT SOFTWARE (PVT)  Nugegoda</Company>
+    <Product>XONT.VENTURA.SOMNT24.WEB</Product>
+    <Copyright>Copyright © Nugegoda 2009</Copyright>
+    <AssemblyVersion>3.0.0.2</AssemblyVersion>
+    <FileVersion>3.0.0.2</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="XONT.VENTURA.V2TRN01.BLL">
+      <HintPath>..\XONT.VENTURA.SOMNT24.BLL\bin\Release\XONT.VENTURA.V2TRN01.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="XONT.VENTURA.V2TRN01.DAL">
+      <HintPath>..\XONT.VENTURA.SOMNT24.BLL\bin\Release\XONT.VENTURA.V2TRN01.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="XONT.VENTURA.V2TRN01.DOMAIN">
+      <HintPath>..\XONT.VENTURA.SOMNT24.BLL\bin\Release\XONT.VENTURA.V2TRN01.DOMAIN.dll</HintPath>
+    </Reference>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.5" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.9.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters.CoreServices" Version="2.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\XONT.VENTURA.SOMNT24.BLL\XONT.VENTURA.SOMNT24.BLL.csproj" />
+  </ItemGroup>
+</Project>

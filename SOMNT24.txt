@@ -1,0 +1,15 @@
+********************************************************
+Task Code				: SOMNT24_V3
+Description				: Return Type Maintenance
+Author					: Chamika Nandathilaka
+Date Created			: 20181227
+Module					: SO
+Base Task & Version		: SOMNT24 & 2.0.1.0
+********************************************************
+
+********************************************************** Modification Control ******************************************************************************************
+Tag				Name				Date			Project					Version			Description																				
+**************************************************************************************************************************************************************************
+V3000			Chamika				20181227		WEB/DAL/DOMAIN/BLL		3.0.0.0			Converted V2 into V3
+V3001			Chamika				20190131		WEB/SP					3.0.0.1			Bugs Fixed( Blocked special characters enter #'";& )
+v3002			Aloka				20250602								3.0.0.2			Sometimes Return Type Maintenance task is opening but data not loading to the task. Check the email (Subject: Backend Developers - V3 Components Page Load Issue)

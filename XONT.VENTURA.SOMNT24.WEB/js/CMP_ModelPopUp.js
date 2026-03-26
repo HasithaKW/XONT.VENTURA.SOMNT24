@@ -1,0 +1,1 @@
+﻿function Selected(targetid,descid,ret){var txtBox=document.getElementById(targetid);var txtDesc=document.getElementById(descid);var arr=new Array();arr=ret.split(',');txtBox.value=arr[0];txtDesc.value=arr[1]}
