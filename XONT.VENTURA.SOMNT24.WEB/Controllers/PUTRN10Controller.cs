@@ -61,7 +61,7 @@ namespace XONT.VENTURA.SOMNT24
                 {
                     connection.Open();
 
-                    using (var command = new SqlCommand("SELECT TOP 1 * FROM ReturnType", connection))
+                    using (var command = new SqlCommand("SELECT TOP 1 * FROM RD.ReturnType", connection))
                     {
                         var reader = command.ExecuteReader();
                         var hasData = reader.HasRows;
