@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -10,17 +10,14 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 
-// If you need CORS:
+// Fix CORS - Allow Angular dev server (port 4200)
 builder.Services.AddCors(options => {
     options.AddPolicy("VenturaAngularPolicy", policy =>
-        policy.WithOrigins("http://localhost:4200")
+        policy.WithOrigins("http://localhost:4200")  // ← Change this to 4200, not 7047
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials());
 });
-
-// ...
-
 
 // SystemWebAdapters (if used)
 builder.Services.AddSystemWebAdapters()
@@ -31,7 +28,7 @@ builder.Services.AddSystemWebAdapters()
         options.RegisterKey<string>("SessionStartTime");
     });
 
-var app = builder.Build();   // <-- after all services
+var app = builder.Build();
 
 // Middleware goes here:
 if (!app.Environment.IsDevelopment())
@@ -42,7 +39,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseCors("VenturaAngularPolicy");   // <-- UseCors, not AddCors
+app.UseCors("VenturaAngularPolicy");  // UseCors after UseRouting
 app.UseSession();
 app.UseSystemWebAdapters();
 
